@@ -14,5 +14,5 @@ int main(int argc, char *argv[])
 	return (1);
 	}
 	printf("%\n", atoi(argv[1] * atoi(argv[2]));
-	return (0);
+ 	             return (0);
 }
