@@ -20,7 +20,7 @@ int _atoi_digit(char x)
  * _isNumber - Define if a string is a number.
  * @argv: Pointer to string.
  * Return: success (0).
- * **/
+ **/
 int _isNumber(char *argv)
 {
 	int i;
@@ -62,7 +62,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  * @a3: array for result.
  * @lena: length of array a3.
  * Return: pointer to array.
- **/
+ * **/
 
 void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 {
@@ -108,7 +108,7 @@ void print_array(char *a, int nb)
 }
 
 /**
- *main - print the multiplication of 2 numbers.
+ **main - print the multiplication of 2 numbers.
  *@argc: array length.
  *@argv: array.
  *Return: 0.
